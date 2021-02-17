@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/sarı"
+    android:hapticFeedbackEnabled="false"
+    tools:context=".LoginActivity">
+
+    <EditText
+        android:id="@+id/passwordText"
+        android:layout_width="291dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="63dp"
+        android:layout_marginLeft="63dp"
+        android:layout_marginEnd="57dp"
+        android:layout_marginRight="57dp"
+        android:backgroundTint="@color/siyah"
+        android:drawableRight="?android:attr/fingerprintAuthDrawable"
+        android:ems="10"
+        android:hint="Şifre"
+
+        android:textColor="@color/siyah"
+        android:textColorHighlight="@color/siyah"
+        android:textColorHint="@color/siyah"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emailText" />
+
+    <EditText
+        android:id="@+id/emailText"
+        android:layout_width="291dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="63dp"
+        android:layout_marginLeft="63dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="57dp"
+        android:layout_marginRight="57dp"
+        android:backgroundTint="@color/siyah"
+        android:drawableRight="?attr/homeAsUpIndicator"
+        android:ems="10"
+        android:hint="E-Mail"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/siyah"
+        android:textColorHighlight="#000000"
+        android:textColorHint="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/passwordText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="207dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="102dp"
+        android:layout_marginLeft="102dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="102dp"
+        android:layout_marginRight="102dp"
+        android:layout_marginBottom="30dp"
+        android:background="@color/siyah"
+        android:backgroundTint="@color/siyah"
+        android:text="GİRİŞ"
+        android:textColor="@color/beyaz"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hesapolustur" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="153dp"
+        android:layout_height="184dp"
+        android:layout_marginStart="129dp"
+        android:layout_marginLeft="129dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="129dp"
+        android:layout_marginRight="129dp"
+        android:tint="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_details_24" />
+
+    <Button
+        android:id="@+id/hesapolustur"
+        android:layout_width="207dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="102dp"
+        android:layout_marginLeft="102dp"
+        android:layout_marginTop="112dp"
+        android:layout_marginEnd="102dp"
+        android:layout_marginRight="102dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/siyah"
+        android:text="KAYIT OL!"
+        android:textColor="@color/beyaz"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/loginButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/passwordText" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

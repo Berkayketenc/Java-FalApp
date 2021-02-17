@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "795451973598",
+    "project_id": "falappfirebase",
+    "storage_bucket": "falappfirebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:795451973598:android:1fc39e4b8d46503807c74f",
+        "android_client_info": {
+          "package_name": "com.infobk.fall"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "795451973598-487o4ue0u3bmsal2dngu6squ7k0c7jhn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3tyQq_pVamxelCX6n95LbTvXBDeM3cCE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "795451973598-487o4ue0u3bmsal2dngu6squ7k0c7jhn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
